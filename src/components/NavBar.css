@@ -1,0 +1,35 @@
+.navbar {
+  height: 5rem;
+  padding: 0rem 0.5rem 0rem 0.5rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+  width: 100%;
+}
+.navbar__logo,
+.navbar__avatar {
+  display: grid;
+}
+.navbar__avatar {
+  height: 3rem;
+  justify-items: end;
+  align-items: center;
+  padding-right: 2rem;
+}
+.navbar__logo {
+  height: 3rem;
+  align-items: center;
+}
+.navbar__avatar img {
+  height: 70%;
+}
+.navbar__logo img {
+  height: 55%;
+}
+.blackBg {
+  background-color: #000;
+  transition: all 500ms ease-in;
+}
